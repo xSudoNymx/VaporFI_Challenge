@@ -23,3 +23,4 @@ Run Gas Check:
    
 [Linkedin](https://www.linkedin.com/in/tyroneharrisjr/)
     
+While my Resume doesn't speak much to what I've done with solidity. I've been working behind the scenes on several projects and have bounty hunted contract for projects like Thor, gitcoin, etc.  
