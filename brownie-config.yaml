@@ -1,0 +1,25 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.7.3
+  - OpenZeppelin/openzeppelin-contracts-upgradeable@4.7.3
+
+compiler:
+  solc:
+    optimizer:
+      enabled: true
+      runs: 20
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.7.3'
+      - '@upgrade=OpenZeppelin/openzeppelin-contracts-upgradeable@4.7.3'
+    
+dotenv: .env
+networks:
+  default: development
+  development:
+    verify: False
+  rinkeby:
+    verify: False
+  ganache:
+    verify: False
+wallets: 
+  from_key: ${PRIVATE_KEY}
+  fuji: ${FUJI_PRIVATE_KEY}
