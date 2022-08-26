@@ -21,3 +21,5 @@ Run Gas Check:
 
     $ brownie test --gas  
    
+[Linkedin](https://www.linkedin.com/in/tyroneharrisjr/)
+    
